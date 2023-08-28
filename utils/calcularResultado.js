@@ -12,8 +12,7 @@ const calcularResultado = () => {
 		}
 	}
 
-	function resultadoFinal(decision){
-		var numero = Math.floor(Math.random() * 3);
+	function resultadoFinal(decision,numero	){
 		if (decision == numero){
 			return 'Empate';
 		}

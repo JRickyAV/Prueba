@@ -4,7 +4,10 @@
     "web": {
       "bundler": "metro"
     },
-    "name": "Prueba",
-    "slug": "Prueba"
+    "plugins": [
+      "expo-router"
+    ],
+    "name": "Proyecto1",
+    "slug": "Proyecto1"
   }
 }

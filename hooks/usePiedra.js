@@ -14,7 +14,8 @@ const usePiedra = () => {
 	}
 
 	function calcularResultadoFinal(){
-		var resultadoString = resultadoFinal(decision);
+		var numero = Math.floor(Math.random() * 3);
+		var resultadoString = resultadoFinal(decision,numero);
 		setResultado(resultadoString);
 	}
 
